@@ -1,0 +1,52 @@
+
+*{
+    font-family: Arial;
+    font-weight: bolder;
+
+}
+
+body {
+    background-image: url("img.jpg");
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container1{
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 50px;
+  }
+
+  .input-div{
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+
+  label{
+    color: white;
+  }  
+  .inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .container2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
